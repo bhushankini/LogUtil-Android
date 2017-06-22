@@ -1,0 +1,188 @@
+{
+  "city": {
+    "id": 4397340,
+    "name": "Maryland Heights",
+    "coord": {
+      "lon": -90.4299,
+      "lat": 38.7131
+    },
+    "country": "US",
+    "population": 0
+  },
+  "cod": "200",
+  "message": 11.0003844,
+  "cnt": 7,
+  "list": [
+    {
+      "dt": 1498154400,
+      "temp": {
+        "day": 27.15,
+        "min": 24.22,
+        "max": 27.79,
+        "night": 24.22,
+        "eve": 26.76,
+        "morn": 26.31
+      },
+      "pressure": 1003.69,
+      "humidity": 69,
+      "weather": [
+        {
+          "id": 804,
+          "main": "Clouds",
+          "description": "overcast clouds",
+          "icon": "04d"
+        }
+      ],
+      "speed": 7.86,
+      "deg": 168,
+      "clouds": 88
+    },
+    {
+      "dt": 1498240800,
+      "temp": {
+        "day": 26.05,
+        "min": 20.34,
+        "max": 27.72,
+        "night": 20.34,
+        "eve": 26.4,
+        "morn": 22.99
+      },
+      "pressure": 1001.81,
+      "humidity": 74,
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "light rain",
+          "icon": "10d"
+        }
+      ],
+      "speed": 6.81,
+      "deg": 4,
+      "clouds": 76,
+      "rain": 0.75
+    },
+    {
+      "dt": 1498327200,
+      "temp": {
+        "day": 24.79,
+        "min": 16.73,
+        "max": 25.58,
+        "night": 16.73,
+        "eve": 23.86,
+        "morn": 18.44
+      },
+      "pressure": 1012.98,
+      "humidity": 59,
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "sky is clear",
+          "icon": "01d"
+        }
+      ],
+      "speed": 5.01,
+      "deg": 311,
+      "clouds": 0
+    },
+    {
+      "dt": 1498413600,
+      "temp": {
+        "day": 20.69,
+        "min": 16.71,
+        "max": 20.69,
+        "night": 17.32,
+        "eve": 20.62,
+        "morn": 16.71
+      },
+      "pressure": 1009.09,
+      "humidity": 0,
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "light rain",
+          "icon": "10d"
+        }
+      ],
+      "speed": 7.22,
+      "deg": 323,
+      "clouds": 19,
+      "rain": 1.76
+    },
+    {
+      "dt": 1498500000,
+      "temp": {
+        "day": 23.32,
+        "min": 14.01,
+        "max": 23.32,
+        "night": 14.01,
+        "eve": 23.08,
+        "morn": 14.61
+      },
+      "pressure": 1015.76,
+      "humidity": 0,
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "sky is clear",
+          "icon": "01d"
+        }
+      ],
+      "speed": 4.73,
+      "deg": 321,
+      "clouds": 0
+    },
+    {
+      "dt": 1498586400,
+      "temp": {
+        "day": 26.72,
+        "min": 15.93,
+        "max": 26.72,
+        "night": 19.33,
+        "eve": 25.42,
+        "morn": 15.93
+      },
+      "pressure": 1013.95,
+      "humidity": 0,
+      "weather": [
+        {
+          "id": 800,
+          "main": "Clear",
+          "description": "sky is clear",
+          "icon": "01d"
+        }
+      ],
+      "speed": 5.87,
+      "deg": 223,
+      "clouds": 0
+    },
+    {
+      "dt": 1498672800,
+      "temp": {
+        "day": 26.25,
+        "min": 17.3,
+        "max": 26.25,
+        "night": 22.79,
+        "eve": 26.24,
+        "morn": 17.3
+      },
+      "pressure": 1011.36,
+      "humidity": 0,
+      "weather": [
+        {
+          "id": 500,
+          "main": "Rain",
+          "description": "light rain",
+          "icon": "10d"
+        }
+      ],
+      "speed": 8.18,
+      "deg": 201,
+      "clouds": 41,
+      "rain": 0.31
+    }
+  ]
+}

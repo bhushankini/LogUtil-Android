@@ -2,7 +2,9 @@ package com.example.bkini.logutilexample
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.example.data_mon.MonData
 import com.example.logutil.LogDebug
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -10,5 +12,12 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         LogDebug.d("Heeloo oAPAPAP")
+
+        val monData = MonData()
+        LogDebug.d("Gettin Ref Data "+ monData.getRefData())
+        data.text = monData
+                .getRefData()
+        val testData =TestData()
+        data.text= testData.readAndDisplayFileContentFromAssetsFolder(this)
     }
 }
