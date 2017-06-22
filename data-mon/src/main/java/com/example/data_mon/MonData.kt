@@ -1,11 +1,13 @@
 package com.example.data_mon
 
+import android.content.Context
+
 
 class MonData{
 
-    fun getRefData() : String{
+    fun getRefData(context : Context) : String{
 
-        return "{Reference Data from Library}"
+        return TestData.readAndDisplayFileContentFromAssetsFolder(context)
     }
 
 }

@@ -1,4 +1,4 @@
-package com.example.bkini.logutilexample;
+package com.example.data_mon;
 
 import android.content.Context;
 import android.content.res.AssetManager;
@@ -19,7 +19,7 @@ public class TestData {
 
 
 
-    public String readAndDisplayFileContentFromAssetsFolder(Context context){
+    public static String readAndDisplayFileContentFromAssetsFolder(Context context){
         AssetManager mgr = context.getAssets();
         String filename = null;
 
@@ -42,7 +42,7 @@ public class TestData {
         return null;
     }
 
-    private  String StreamToString(InputStream in) throws IOException {
+    private  static String StreamToString(InputStream in) throws IOException {
         if(in == null) {
             return "";
         }
