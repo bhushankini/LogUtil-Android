@@ -34,4 +34,5 @@ dependencies {
     implementation 'com.android.support.constraint:constraint-layout:1.0.2'
     implementation project(':log-util')
     implementation project(':data-mon')
+    compile project(path: ':math-util')
 }
